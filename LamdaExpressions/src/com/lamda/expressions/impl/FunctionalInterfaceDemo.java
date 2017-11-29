@@ -139,7 +139,7 @@ public class FunctionalInterfaceDemo {
 	}
 
 
-	// using Preficate functional interface defined in java.lang.function 
+	// using Predicate functional interface defined in java.lang.function 
 	public static void printPersonsWithPredicate(
 			List<Integer> roster, Predicate<Integer> tester) {
 		for (Integer p : roster) {
